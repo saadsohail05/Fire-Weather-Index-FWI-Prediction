@@ -1,1 +1,130 @@
-<h1>Welcome to the Home Page</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FWI Prediction Project</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f3f4f7;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+
+        header {
+            background: linear-gradient(to right, #4e54c8, #8f94fb);
+            width: 100%;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            color: #fff;
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            color: #dcdcdc;
+            font-size: 18px;
+        }
+
+        .container {
+            text-align: center;
+            margin-top: 50px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            max-width: 800px;
+            width: 100%;
+        }
+
+        .container h2 {
+            font-size: 28px;
+            margin-bottom: 20px;
+            color: #4e54c8;
+        }
+
+        .container p {
+            font-size: 18px;
+            line-height: 1.6;
+            margin-bottom: 40px;
+            color: #666;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 12px 30px;
+            background-color: #4e54c8;
+            color: #fff;
+            border-radius: 5px;
+            font-size: 18px;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: #3a3e98;
+        }
+
+        footer {
+            margin-top: 50px;
+            padding: 10px;
+            text-align: center;
+            color: #aaa;
+            font-size: 14px;
+        }
+
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 24px;
+            }
+
+            .container h2 {
+                font-size: 24px;
+            }
+
+            .container p {
+                font-size: 16px;
+            }
+
+            .btn {
+                font-size: 16px;
+                padding: 10px 25px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Fire Weather Index (FWI) Prediction System</h1>
+        <p>Predicting the Fire Weather Index based on meteorological data</p>
+    </header>
+
+    <div class="container">
+        <h2>Welcome to the FWI Prediction Project</h2>
+        <p>
+            This project aims to predict the Fire Weather Index (FWI) using machine learning techniques. 
+            By inputting key meteorological factors such as temperature, relative humidity, wind speed, and rain, 
+            our model predicts the fire weather index which indicates fire risk.
+        </p>
+        <a href="/predictdata" class="btn">Get Started</a>
+    </div>
+
+    <footer>
+        &copy; 2024 FWI Prediction Project | All rights reserved
+    </footer>
+</body>
+</html>
