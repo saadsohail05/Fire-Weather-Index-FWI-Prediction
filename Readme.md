@@ -4,7 +4,7 @@
 [![Python](https://img.shields.io/badge/Python-3.x-blue.svg)](https://www.python.org/) [![Flask](https://img.shields.io/badge/Flask-%20v1.1.2-lightgrey.svg)](https://flask.palletsprojects.com/) ![AWS Elastic Beanstalk](https://img.shields.io/badge/Deployed_on-AWS_Elastic_Beanstalk-orange.svg) ![License](https://img.shields.io/badge/License-MIT-green.svg)
 
 ## 🚀 Introduction
-The **Fire-Weather-Index (FWI) Prediction** project is an AI-powered solution designed to predict the risk of forest fires by calculating the Fire Weather Index (FWI). It leverages various meteorological factors like temperature, humidity, wind speed, and rain to offer real-time, data-driven predictions. 🔥
+The **Fire-Weather-Index (FWI) Prediction** project is designed to predict the risk of forest fires by calculating the Fire Weather Index (FWI). It leverages various meteorological factors like temperature, humidity, wind speed, and rain to offer real-time, data-driven predictions. 🔥
 
 This project is deployed on **AWS Elastic Beanstalk** with a CI/CD pipeline using **AWS CodePipeline** for continuous integration. The machine learning model is served through a **Flask** web application, allowing users to input data and instantly get a prediction.
 
@@ -22,7 +22,7 @@ Make sure you have the following installed:
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/yourusername/FWI-Prediction.git
+   git clone https://github.com/saadsohail05/Fire-Weather-Index-FWI-Prediction.git
    cd FWI-Prediction
    ```
 
